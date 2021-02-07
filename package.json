@@ -1,0 +1,37 @@
+{
+  "name": "@hugov/stats",
+  "type": "module",
+  "main": "stats.js",
+  "module": "stats.js",
+  "version": "0.0.1",
+  "description": "average, standard deviation, variance, covariance and correlation of data sets",
+  "keywords": [
+    "average",
+    "standard deviation",
+    "variance",
+    "covariance",
+    "correlation"
+  ],
+  "author": "Hugo Villeneuve",
+  "dependencies": {
+    "@hugov/sum": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "assert-op": "^0.6.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hville/stats.git"
+  },
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm test",
+    "pub": "npm publish --access public"
+  },
+  "bugs": {
+    "url": "https://github.com/hville/stats/issues"
+  },
+  "homepage": "https://github.com/hville/stats#readme"
+}
